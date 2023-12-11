@@ -1,0 +1,16 @@
+img#imageContainer{
+    width: auto;
+    height: auto;
+}
+/* .randomImage img {
+    max-width: 100%;
+    height: auto;
+} */
+.randomImage {
+    max-width: 100%;
+    height: auto;
+}
+#imageContainer {
+    max-width: 100%; /* Assurez-vous que la div ne dépasse pas la largeur de son conteneur */
+    overflow: hidden; /* Masque le contenu qui dépasse les dimensions spécifiées */
+}

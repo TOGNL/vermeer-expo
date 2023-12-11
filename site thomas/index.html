@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vermeer Thomas Guisnel</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cookie.css">
+    <link rel="stylesheet" href="css/random.css">
+
+</head>
+<body>                
+        <!-- Cookie Banner -->
+        <div id="cookie-banner">
+          <!-- chercher sur google un exemple juridique/cgu ect.. -->
+          <p>Voici ci notre politique d'utilisation des cookies :<br>
+              <p>
+                  Ce site web utilise des cookies pour améliorer l'expérience de navigation de ses utilisateurs.
+                  Les cookies sont de petits fichiers texte stockés sur votre appareil qui nous aident à comprendre comment vous interagissez avec notre site.
+                  Ils sont utilisés à diverses fins, telles que l'analyse du trafic, la personnalisation du contenu, et la publicité ciblée. 
+              </p><p>
+                  En utilisant notre site, vous consentez à l'utilisation de cookies conformément à cette politique.
+                  Si vous n'acceptez pas l'utilisation de cookies, vous pouvez désactiver les cookies dans les paramètres de votre navigateur.
+                  Veuillez noter que la désactivation des cookies peut affecter certaines fonctionnalités de notre site.
+              </p>
+              <button id="cookieButton" onclick="cookieClose()">Refuser les cookie</button>
+              <button id="cookieButton" onclick="cookieClose()">Accepter les cookie</button><br><br>
+              (En cliquant sur acceptez les cookies vous êtes au courant de la mise en place des RGPD)
+          </p>
+      </div>
+
+
+  <div class="tm-container">
+    <div class="tm-row">
+      <!-- Site Header -->
+      <div class="tm-left">
+        <div class="tm-left-inner">
+
+          <div class="tm-site-header">
+            <i class="fas"></i>
+            <h1 class="tm-site-name">Exposition de Vermeer</h1> <!--TITRE DE LA BOITE DU MENU DE GAUCHE -->
+          </div>
+          <nav class="tm-site-nav">
+            <ul class="tm-site-nav-ul">
+              <li class="tm-page-nav-item">
+                <a href="#drink" class="tm-page-link active">
+                  <i class="fas tm-page-link-icon"><!--POUR AFFICHER LE TIRET --></i>
+                  <span>
+                    18 Oeuvres<br><!--saut de ligne avec la balise <BR> -->
+                    de Vermeer
+                  </span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#about" class="tm-page-link">
+                  <i class="fas tm-page-link-icon"></i>
+                  <span>Compilations de<br><!--saut de ligne avec la balise <BR> -->
+                    12 oeuvres
+                  </span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#special" class="tm-page-link">
+                  <i class="fas tm-page-link-icon"></i>
+                  <span>Biographie Vermeer<br><!--saut de ligne avec la balise <BR> -->
+                  et Critique vidéo
+                  </span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#contact" class="tm-page-link">
+                  <i class="fas tm-page-link-icon"></i>
+                  <span>
+                    Informations<br><!--saut de ligne avec la balise <BR> -->
+                    sur l'exposition
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+      <div class="tm-right">
+        <main class="tm-main">
+          <div id="drink" class="tm-page-content">
+            <!-- Menu des oeuvres -->
+            <nav class="tm-black-bg tm-drinks-nav">     <!-- navbar de liens pour afficher les 3 parties différentes du site qui affiche les 12 oeuvres -->
+              <ul>
+                <li>
+                  <a href="#" class="tm-tab-link active" data-id="cold">Première Liste d'oeuvres</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-tab-link" data-id="juice">Deuxième Liste d'oeuvres</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div id="cold" class="tm-tab-content"><!--DIV DE DROITES avec un ID random pour chaque div de droites-->
+              <div class="tm-list">       <!--DIV CONTENANT TOUTES LES OEUVRES -->
+                <div class="tm-list-item">          
+                  <img src="img/1.png" alt="Image" class="tm-list-item-img"><!-- LIENS DE CHAQUE PEINTURES -->
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name"><!--TITRE DE CHAQUE PEINTURE -->
+                      Jeune femme à l'aiguière
+                    </h3>                
+                    <p class="tm-list-item-description"><!--description de la peinture dans un paragraphe -->
+                      Jeune femme à l'aiguière, parfois appelé aussi Femme à l'aiguière est un tableau de Johannes Vermeer peint vers 1662-1665, et exposé au Metropolitan Museum of Art de New York
+                    </p>        
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/2.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      Le Christ dans la maison de Marthe et Marie
+                    </h3>
+                    <p class="tm-list-item-description">
+                      Le Christ dans la maison de Marthe et Marie est l'un des premiers tableaux de Johannes Vermeer peint vers 1655, exposé à la National Gallery of Scotland d'Édimbourg.
+                    </p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/3.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      Entremetteuse
+                    </h3>
+                    <p class="tm-list-item-description">
+                      L’Entremetteuse est une huile sur toile de Johannes Vermeer. Signée en bas à droite du cadre et datée de 1656, elle mesure 143 cm de haut et 130 cm de large. Elle est conservée à la Gemäldegalerie Alte Meister de Dresde.
+                    </p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/4.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      Une jeune fille assoupie
+                    </h3>
+                    <p class="tm-list-item-description">
+                      Une jeune fille assoupie est un tableau de Johannes Vermeer peint vers 1657, exposé au Metropolitan Museum of Art de New York.
+                    </p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/5.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      Le Soldat et jeune fille riant
+                    </h3>
+                    <p class="tm-list-item-description">
+                      Le Soldat et jeune fille riant, appelé aussi l'Officier et la jeune fille riant est une huile sur toile de Johannes Vermeer peinte vers 1657. Mesurant 50,5 cm de haut et 46 cm de large, le tableau est actuellement exposé à la Frick Collection de New York.
+                    </p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/6.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Liseuse à la fenêtre
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Liseuse à la fenêtre est un tableau de Johannes Vermeer. Peint vers 1657, il est signé sur le mur, entre la robe de la jeune femme et le rideau « JMeer ». Il est actuellement exposé à la Gemäldegalerie Alte Meister de Dresde.
+                    </p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/7.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Jeune Fille au verre de vin.
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Jeune Fille au verre de vin est un tableau de Johannes Vermeer peint entre 1659 et 1660, exposé au Herzog Anton Ulrich-Museum de Brunswick en Basse-Saxe, une huile sur toile de 78 × 67 cm.
+                    </p>              
+                  </div>
+                </div> 
+                <div class="tm-list-item">        
+                  <img src="img/8.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Laitière.
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Laitière est une peinture à l'huile sur toile de 45,5 × 41 cm, réalisée vers 1658 par Johannes Vermeer, dit « Vermeer de Delft », et exposée depuis 1908 au Rijksmuseum d'Amsterdam
+                    </p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/9.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Ruelle.
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Ruelle est une peinture à l'huile sur toile de Johannes Vermeer de 54,3 × 44 cm, peinte vers 1658, et exposée au Rijksmuseum d'Amsterdam.
+                    </p>                    
+                  </div>
+                </div>    
+              </div>
+            </div> 
+                  <!-- 2E LISTE DES OEUVRES -->
+
+            <div id="juice" class="tm-tab-content"> 
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="img/10.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Leçon de musique.
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Leçon de musique est un tableau de Johannes Vermeer peint vers 1662-1665. Il est conservé dans la Royal Collection et peut être exposé au Palais de Buckingham ou au Palais St. James de Londres.
+                    </p>                    
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/11.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      Le Concert.
+                    </h3>
+                    <p class="tm-list-item-description">
+                      Le Concert est un tableau de Johannes Vermeer, peint entre 1663 et 1666. Il était exposé au musée Isabella-Stewart-Gardner de Boston, avant d'être volé en 1990. C'est peut-être l'une des œuvres volées les plus chères, son estimation est d'environ 250 000 000 $.
+                    </p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/12.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      Une femme buvant avec deux hommes.
+                    </h3>
+                    <p class="tm-list-item-description">
+                      Une femme buvant avec deux hommes est une peinture de 1658 de Pieter de Hooch, un exemple de la peinture hollandaise de l'âge d'or et fait partie de la collection de la National Gallery de Londres. La peinture a été documentée par Hofstede de Groot en 1908, qui a écrit : 183. FILLE AVEC DEUX CAVALIERS. Sm. 49. ; de G.
+                    </p>              
+                  </div>
+                </div>  
+                <div class="tm-list-item">          
+                  <img src="img/13.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La femme au luth
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Femme au luth est un tableau de Johannes Vermeer peint vers 1662-1663, et exposé au Metropolitan Museum of Art de New York.
+                    </p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/14.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Femme en bleu lisant une lettre
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Femme en bleu lisant une lettre est un tableau de Johannes Vermeer réalisé vers 1662-1665. Cette huile sur toile de 46,5 cm par 39 cm est aujourd'hui conservée au Rijksmuseum, à Amsterdam.
+                    </p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/15.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Femme à la balance
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Femme à la balance, autrefois également La Peseuse de perles, ou encore La Peseuse d'or, est une huile sur toile du peintre néerlandais du Siècle d'or Johannes Vermeer, exécutée entre 1662 et 1665, et actuellement conservée à la National Gallery of Art de Washington DC.
+                    </p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/16.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Dame au collier de perles
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Dame au collier de perles est un tableau de Johannes Vermeer peint en 1664, exposé au Staatliche Museen Preussischer Kulturbesitz, dans la Gemäldegalerie de Berlin.
+                    </p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/17.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      Jeune femme écrivant une lettre
+                    </h3>
+                    <p class="tm-list-item-description">
+                      Jeune femme écrivant une lettre est un tableau de Johannes Vermeer peint vers 1665 et exposé à la National Gallery of Art de Washington.
+                    </p>              
+                  </div>
+                </div>         
+                <div class="tm-list-item">          
+                  <img src="img/18.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">
+                      La Jeune Fille à la perle
+                    </h3>
+                    <p class="tm-list-item-description">
+                      La Jeune Fille à la perle est une peinture à l'huile sur toile réalisée par le peintre néerlandais Johannes Vermeer vers 1665. Ce tableau de moyenne dimension est un portrait en buste d'une jeune femme anonyme — peut-être l'une des filles de Vermeer — portant une perle à l'oreille ainsi qu'un turban sur la tête.
+                    </p>              
+                  </div>
+                </div>   
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+
+          <!-- MENU DE COMPILATION DES 12 IMAGES DE MANIERE ALEATOIRE -->
+          <div id="about" class="tm-page-content">
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
+              <h2 class="tm-text-primary tm-about-header">Voici une compilations d'images</h2>
+              <button id="changer-images">Changer les oeuvres</button>
+              <div class="tm-list-item tm-list-item-2">                
+                <!-- <img src="img/2.jpg" alt="Image" class="tm-list-item-img tm-list-item-2 tm-list-item-img-big">     TEST DE PLACEMENT IMAGE -->
+                <div id="oeuvres-vermeer">
+                  <div id="imageContainer">
+                  </div>
+                  <!-- Bouton pour changer les oeuvres affichés aléatoirement -->
+                </div>
+               <!--   RAJOUTER LES IMAGES ALEATOIRES  -->
+              </div>
+            </div>
+          </div>
+          <!-- END  -->
+
+          <!-- debut -->
+          <div id="special" class="tm-page-content">
+
+            <div class="tm-special-items">
+              <div class="tm-black-bg tm-special-item">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Vermeer</h2>
+                  <p class="tm-special-item-text">
+                    Johannes Vermeer, peintre néerlandais du XVIIe siècle, est célèbre pour ses œuvres emblématiques capturant la lumière et la vie quotidienne.<br>
+                    Né en 1632 à Delft, Vermeer a passé la majeure partie de sa vie dans cette ville. <br>
+                    Bien que peu de détails sur sa vie personnelle soient connus, son héritage artistique est indéniable. <br>
+                    Vermeer a créé un nombre limité de peintures, mais chacune est un chef-d'œuvre. <br>
+                    Ses tableaux, tels que "La Jeune Fille à la perle" et "La Laitière", <br>
+                    révèlent son talent extraordinaire pour représenter la lumière, les textures et les expressions subtiles. Malgré sa mort précoce en 1675, <br>
+                    Johannes Vermeer laisse derrière lui un legs artistique remarquable qui continue de fasciner et d'inspirer les amateurs d'art du monde entier.
+                  </p>
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Critique sur la vidéo : <br> "Le Monde dans un tableau Le chapeau de Vermeer"</h2>
+                  <p class="tm-special-item-text">
+                    <iframe src="https://www.youtube.com/embed/bncM8kOCOLs?si=gCSgsfUlljhNDGkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <strong><li>Introduction :</li></strong>
+                    À l'époque de Vermeer, les Pays-Bas étaient un centre commercial et maritime crucial, favorisant les échanges avec l'Europe, l'Asie et les Amériques.<br>
+                    Les Néerlandais ont également été des pionniers en matière d'économie, étant à l'origine de la création des actions,
+                    des marchés boursiers et des banques centrales.<br>
+                    Cette croissance économique a eu un impact significatif sur la vie culturelle et artistique, inspirant notamment Vermeer dans certains de ses tableaux
+                    notamment dans "Le soldat et la jeune fille riant".<br>
+                    Johannes Vermeer a réalisé cette peinture vers 1657, période où il se consacrait à des scènes de la vie quotidienne,
+                    mettant l'accent sur les détails et la lumière.<br><br>
+                    <strong><li>Les détails visuels :</li></strong>
+                    L'officier, vêtu d'un uniforme militaire et arborant un chapeau en peau de castor, est assis à côté d'une jeune femme habillée d'une robe jaune.<br>
+                    La lumière naturelle entre par une fenêtre à gauche, créant des jeux d'ombres et de lumières sur les visages et les vêtements des personnages.<br>
+                    Le choix du chapeau en peau de castor dans "Le Soldat et la jeune fille riant" de Vermeer est une référence à l'exploitation et à l'extermination des castors à l'époque.<br>
+                    <br><strong><li>Les détails du chapeau :</li></strong>
+                    Les chapeaux en peau de castor étaient très prisés pour leur durabilité, leur imperméabilité et leur élégance.<br>
+                    Ils étaient souvent associés à des personnes de classe sociale élevée ou à des professions spécifiques.<br>
+                    La mise en avant du chapeau par Vermeer vise à dénoncer le commerce excessif et l'extermination des castors pendant cette période.<br><br>
+                    <strong><li>Le massacre des castors :</li></strong>
+                    Les castors étaient de plus en plus rares à force d'être traqués, poussant les Européens à les chercher en Amérique du Nord.<br>
+                    Cela a entraîné un massacre massif des castors en raison de la forte demande de leurs peaux pour la confection de chapeaux.<br>
+                    Cependant, une civilisation autochtone, les Wendats, a tenté de les protéger, déclenchant ainsi une guerre contre les colons.<br><br>
+                    <strong><li>Les Wendats</li></strong>
+                    Le massacre des Wendats, également connu sous le nom de guerre des castors, a eu lieu en 1649 dans la région des Grands Lacs en Amérique du Nord.<br>
+                    Les Wendats, une nation amérindienne, étaient réputés pour leur expertise dans le commerce des fourrures,<br>
+                    en particulier la peau de castor, une ressource précieuse à l'époque pour la fabrication de chapeaux et de vêtements.<br>
+                    Ce massacre a eu des conséquences dévastatrices pour les Wendats, entraînant la dispersion de leur peuple et une extermination massive des castors.<br><br>
+                    <strong><li>Conclusion</li></strong>
+                    En conclusion, avec des œuvres telles que "L'officier et la jeune fille riant", Vermeer a illustré la vie quotidienne de la société néerlandaise pendant une période de prospérité économique.<br>
+                    Parallèlement, les Pays-Bas étaient au cœur d'une expansion commerciale majeure
+                    avec des entreprises commerciales et un réseau mondial d'échanges.<br>
+                    Cela a marqué le début de la mondialisation du commerce, ayant un impact sur l'art et l'économie.<br><br>
+                  </p>
+                </div>
+              </div>                      
+            </div>            
+          </div>
+          <!-- END -->
+
+          <!-- debut de la zone de texte des informations de l'exposition VERMEER -->
+          <div id="contact" class="tm-page-content">
+            <div class="tm-black-bg tm-contact-text-container">
+              <h2 class="tm-text-primary">Informations Exposition</h2>
+              <p>
+                Voici quelques informations de l'emplacement de l'exposition et des prix.<br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2751.393030088294!2d6.588982976195711!3d46.40126237110475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c235528095341%3A0x5173c5ef4f1398c0!2sPalais%20Lumi%C3%A8re%2C%2074500%20%C3%89vian-les-Bains!5e0!3m2!1sfr!2sfr!4v1702078236667!5m2!1sfr!2sfr" width="100%" height="auto"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </p>
+            </div>
+            <div class="tm-black-bg tm-contact-form-container tm-align-right">
+              <section id="informations">
+                <div class="exhibition-info">
+                    <h2>Informations sur l'exposition</h2>
+                    <p class="pricing-info">
+                      <strong>Tous publics :</strong> Plein tarif 9,00 €.<br>
+                      <strong>Visites commentées tous les jours à 14h30 pour les individuels :</strong> 4 € en plus du ticket d'entrée.<br>
+                      <strong>Visites thématiques :</strong> 4 € en supplément du ticket d'entrée.<br>
+                      <strong>Jeunes / Familles :</strong> Gratuit pour les moins de 16 ans.<br>
+                      <strong>Tarif réduit :</strong> Étudiants, familles nombreuses, membres du club « Petit Léonard » : 7,00 €.<br>
+                      Parcours découverte tous les mercredis à 16h pour les enfants (-10 ans) accompagnés de leurs parents : 7,00 € (adulte).<br>
+                      « Petit jeu du Palais Lumière » (6-12 ans) : livret ludique disponible à l’accueil.<br>
+                      Ateliers pédagogiques :<br>
+                      5 € : enfant-adolescent / atelier et en famille.<br>
+                      8,00 € : adulte (voir détail dans « en regard de l’exposition »).<br>
+                      <strong>Groupes :</strong> Tarif réduit de 7,00 € pour les groupes d’au moins 10 personnes.<br>
+                      <strong>Visites commentées sur réservation :</strong> 55,00 € / groupe de 10 à 30 personnes, en plus du ticket d’entrée.<br>
+                      <strong>Scolaires / Enseignants :</strong> Gratuit pour les groupes scolaires.<br>
+                      <strong>Visites commentées sur réservation :</strong> 55,00 € / groupe de 10 à 30 élèves.<br>
+                      <strong>Contact pour réservation :</strong> 04 50 83 10 19 / courrier@ville-evian.fr<br>
+                    </p>
+                </div>
+            </section>
+            </div>
+          </div>
+          <!-- END de la zone de texte des informations de l'exposition VERMEER -->
+        </main>
+      </div>    
+    </div>
+    <footer class="tm-site-footer">
+      <div class="cookie">
+
+      </div>
+    </footer>
+  </div>
+    
+  <!-- Background video -->
+  <!-- <div class="tm-video-wrapper">
+      <i id="tm-video-control-button" class="fas fa-pause"></i>
+      <video autoplay muted loop id="tm-video">
+          <source src="video/wave-cafe-video-bg.mp4" type="video/mp4">
+      </video>
+  </div> -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>    
+  <script src="js/script.js"></script>
+  <script src="js/cookie.js"></script>    
+  <script>
+
+    function setVideoSize() {
+      const vidWidth = 1920;
+      const vidHeight = 1080;
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const tempVidWidth = windowHeight * vidWidth / vidHeight;
+      const tempVidHeight = windowWidth * vidHeight / vidWidth;
+      const newVidWidth = tempVidWidth > windowWidth ? tempVidWidth : windowWidth;
+      const newVidHeight = tempVidHeight > windowHeight ? tempVidHeight : windowHeight;
+      const tmVideo = $('#tm-video');
+
+      tmVideo.css('width', newVidWidth);
+      tmVideo.css('height', newVidHeight);
+    }
+
+    function openTab(evt, id) {
+      $('.tm-tab-content').hide();
+      $('#' + id).show();
+      $('.tm-tab-link').removeClass('active');
+      $(evt.currentTarget).addClass('active');
+    }    
+
+    function initPage() {
+      let pageId = location.hash;
+
+      if(pageId) {
+        highlightMenu($(`.tm-page-link[href^="${pageId}"]`)); 
+        showPage($(pageId));
+      }
+      else {
+        pageId = $('.tm-page-link.active').attr('href');
+        showPage($(pageId));
+      }
+    }
+
+    function highlightMenu(menuItem) {
+      $('.tm-page-link').removeClass('active');
+      menuItem.addClass('active');
+    }
+
+    function showPage(page) {
+      $('.tm-page-content').hide();
+      page.show();
+    }
+
+    $(document).ready(function(){
+
+      /***************** Pages *****************/
+
+      initPage();
+
+      $('.tm-page-link').click(function(event) {
+        
+        if(window.innerWidth > 991) {
+          event.preventDefault();
+        }
+
+        highlightMenu($(event.currentTarget));
+        showPage($(event.currentTarget.hash));
+      });
+
+      
+      /***************** Tabs *******************/
+
+      $('.tm-tab-link').on('click', e => {
+        e.preventDefault(); 
+        openTab(e, $(e.target).data('id'));
+      });
+
+      $('.tm-tab-link.active').click(); // Open default tab
+
+
+      /************** Video background *********/
+
+      setVideoSize();
+
+      // Set video background size based on window size
+      let timeout;
+      window.onresize = function(){
+        clearTimeout(timeout);
+        timeout = setTimeout(setVideoSize, 100);
+      };
+
+      // Play/Pause button for video background      
+      const btn = $("#tm-video-control-button");
+
+      btn.on("click", function(e) {
+        const video = document.getElementById("tm-video");
+        $(this).removeClass();
+
+        if (video.paused) {
+          video.play();
+          $(this).addClass("fas fa-pause");
+        } else {
+          video.pause();
+          $(this).addClass("fas fa-play");
+        }
+      });
+    });
+      
+  </script>
+</body>
+</html>
